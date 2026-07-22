@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<!-- div is a container for multiple web objects -->
+<div>
+    <!-- a form allows us to pass data from a View to a Controller -->
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <div style="margin-bottom: 15px;">
+            <!-- label is a heading for an object -->
+            <label for="userName">Enter Name:</label>
+            <!-- input is for collecting data -->
+            <input type="text" id="userName" name="userName" placeholder="Piet Pompies" required />
+        </div>
+        <!-- buttons perform actions when pressed -->
+        <button class="btn btn-primary" type="submit">Submit Name</button>
+    </form>
+
+    <!-- check whether a response is returned from the function -->
+    @if (ViewBag.FuncResponse != null)
+    {
+        <div class="card" style="width:50%; margin: 0 auto; padding:20px;">
+            <h3>Response:</h3>
+            <p>
+                @ViewBag.FuncResponse
+            </p>
+        </div>
+    }
+</div>

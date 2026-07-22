@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FirstFunctionG1/FirstFunctionG1.csproj" />
+  <Project Path="FunctionAppG1/FunctionAppG1.csproj" />
+</Solution>
