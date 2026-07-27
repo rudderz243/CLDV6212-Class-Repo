@@ -1,0 +1,14 @@
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\bin\Debug\net10.0\FunctionCRUDG1.exe
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\bin\Debug\net10.0\FunctionCRUDG1.deps.json
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\bin\Debug\net10.0\FunctionCRUDG1.runtimeconfig.json
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\bin\Debug\net10.0\FunctionCRUDG1.dll
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\bin\Debug\net10.0\FunctionCRUDG1.pdb
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\FunctionCRUDG1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\FunctionCRUDG1.AssemblyInfoInputs.cache
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\FunctionCRUDG1.AssemblyInfo.cs
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\FunctionCRUDG1.csproj.CoreCompileInputs.cache
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\FunctionCRUDG1.dll
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\refint\FunctionCRUDG1.dll
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\FunctionCRUDG1.pdb
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\FunctionCRUDG1.genruntimeconfig.cache
+C:\Users\Glynn\source\repos\FunctionCRUDG1\FunctionCRUDG1\obj\Debug\net10.0\ref\FunctionCRUDG1.dll

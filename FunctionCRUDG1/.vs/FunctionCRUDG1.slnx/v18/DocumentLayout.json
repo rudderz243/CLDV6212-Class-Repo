@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40BD1DFA-172F-6839-A403-7B97305FBA19}|RestaurantFunctionG1\\RestaurantFunctionG1.csproj|c:\\users\\glynn\\source\\repos\\functioncrudg1\\restaurantfunctiong1\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BD1DFA-172F-6839-A403-7B97305FBA19}|RestaurantFunctionG1\\RestaurantFunctionG1.csproj|solutionrelative:restaurantfunctiong1\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|c:\\users\\glynn\\source\\repos\\functioncrudg1\\functioncrudg1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|solutionrelative:functioncrudg1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BD1DFA-172F-6839-A403-7B97305FBA19}|RestaurantFunctionG1\\RestaurantFunctionG1.csproj|c:\\users\\glynn\\source\\repos\\functioncrudg1\\restaurantfunctiong1\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BD1DFA-172F-6839-A403-7B97305FBA19}|RestaurantFunctionG1\\RestaurantFunctionG1.csproj|solutionrelative:restaurantfunctiong1\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\RestaurantFunctionG1\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "RestaurantFunctionG1\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\RestaurantFunctionG1\\Models\\MenuItem.cs",
+              "RelativeToolTip": "RestaurantFunctionG1\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T13:10:29.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\RestaurantFunctionG1\\Function1.cs",
+              "RelativeDocumentMoniker": "RestaurantFunctionG1\\Function1.cs",
+              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\RestaurantFunctionG1\\Function1.cs",
+              "RelativeToolTip": "RestaurantFunctionG1\\Function1.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswFgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T13:06:33.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\FunctionCRUDG1\\Program.cs",
+              "RelativeDocumentMoniker": "FunctionCRUDG1\\Program.cs",
+              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\FunctionCRUDG1\\Program.cs",
+              "RelativeToolTip": "FunctionCRUDG1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T13:02:34.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
