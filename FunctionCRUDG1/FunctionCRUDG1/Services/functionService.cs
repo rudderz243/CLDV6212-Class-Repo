@@ -12,7 +12,7 @@ namespace FunctionCRUDG1.Services
 		private readonly HttpClient _httpClient;
 		// function URL - this would usually go into appsettings.json, however we are lazy and learning
 		// this connection string would have to be updated to match YOUR function :)
-		const string functionURL = "http://localhost:6769/api/items";
+		const string functionURL = "http://localhost:7146/api/items";
 		// create a single instance of the functionService class, that we will call throughout our entire
 		// program. this way, we can preserve server resources, by only having 1 single connection per client
 		// this is called a SINGLETON - a single instance of an object
@@ -93,7 +93,7 @@ namespace FunctionCRUDG1.Services
 		public async Task<MenuItem?> ReplaceItemAsync(MenuItem itemToReplace) {
 			try {
 				// put request -> replaces an existing object with a new one
-				var response = await _httpClient.PutAsJsonAsync(functionURL, itemToReplace);
+				var response = await _httpClient.PutAsJsonAsync(functionURL + "?id=" + itemToReplace.id, itemToReplace);
 				response.EnsureSuccessStatusCode();
 
 				var content = await response.Content.ReadAsStringAsync();

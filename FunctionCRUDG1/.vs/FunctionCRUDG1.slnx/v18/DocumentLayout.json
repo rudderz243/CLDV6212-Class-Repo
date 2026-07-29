@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg1\\functioncrudg1\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|solutionrelative:functioncrudg1\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40BD1DFA-172F-6839-A403-7B97305FBA19}|RestaurantFunctionG1\\RestaurantFunctionG1.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg1\\restaurantfunctiong1\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40BD1DFA-172F-6839-A403-7B97305FBA19}|RestaurantFunctionG1\\RestaurantFunctionG1.csproj|solutionrelative:restaurantfunctiong1\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg1\\functioncrudg1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|solutionrelative:functioncrudg1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg1\\functioncrudg1\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|solutionrelative:functioncrudg1\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A902A10B-090D-C533-2A17-8E7483F589E1}|FunctionCRUDG1\\FunctionCRUDG1.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg1\\functioncrudg1\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "functionService.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\FunctionCRUDG1\\Services\\functionService.cs",
               "RelativeDocumentMoniker": "FunctionCRUDG1\\Services\\functionService.cs",
               "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\FunctionCRUDG1\\Services\\functionService.cs",
               "RelativeToolTip": "FunctionCRUDG1\\Services\\functionService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAADwv2QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-27T13:05:56.21Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "FunctionCRUDG1\\Models\\MenuItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T13:03:13.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-27T13:03:13.903Z"
             },
             {
               "$type": "Document",
@@ -72,31 +71,30 @@
               "RelativeToolTip": "RestaurantFunctionG1\\Models\\MenuItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T13:10:29.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-22T13:10:29.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Function1.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\RestaurantFunctionG1\\Function1.cs",
               "RelativeDocumentMoniker": "RestaurantFunctionG1\\Function1.cs",
               "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\RestaurantFunctionG1\\Function1.cs",
               "RelativeToolTip": "RestaurantFunctionG1\\Function1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAswCwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwCwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-22T13:06:33.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\FunctionCRUDG1\\Program.cs",
               "RelativeDocumentMoniker": "FunctionCRUDG1\\Program.cs",
               "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\FunctionCRUDG1\\Program.cs",
               "RelativeToolTip": "FunctionCRUDG1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvx4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-22T13:02:34.615Z",
               "EditorCaption": ""
