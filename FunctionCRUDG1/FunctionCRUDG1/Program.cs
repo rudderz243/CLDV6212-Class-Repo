@@ -1,10 +1,14 @@
-﻿namespace FunctionCRUDG1
+﻿using FunctionCRUDG1.Services;
+
+namespace FunctionCRUDG1
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+		static async Task Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			// call in and create the singleton for our API service
+
+			var service = functionService.Instance;
 		}
 	}
 }

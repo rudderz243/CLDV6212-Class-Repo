@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunctionCRUDG2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7476ec84deb76a674398c3e3dcaa5542ede781b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c83c53e5dcecb3d5e6ec6bb1f7e00ac53b52f97")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunctionCRUDG2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunctionCRUDG2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

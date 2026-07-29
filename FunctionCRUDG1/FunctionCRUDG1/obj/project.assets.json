@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\FunctionCRUDG1\\FunctionCRUDG1.csproj",
+      "projectUniqueName": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\FunctionCRUDG1\\FunctionCRUDG1.csproj",
       "projectName": "FunctionCRUDG1",
-      "projectPath": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\FunctionCRUDG1\\FunctionCRUDG1.csproj",
+      "projectPath": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\FunctionCRUDG1\\FunctionCRUDG1.csproj",
       "packagesPath": "C:\\Users\\Glynn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Glynn\\source\\repos\\FunctionCRUDG1\\FunctionCRUDG1\\obj\\",
+      "outputPath": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG1\\FunctionCRUDG1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
