@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg2\\functioncrudg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|solutionrelative:functioncrudg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg2\\functioncrudg2\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|solutionrelative:functioncrudg2\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg2\\functioncrudg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|solutionrelative:functioncrudg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg2\\functioncrudg2\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg2\\functioncrudg2\\functioncrudg2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{87773477-D081-3071-FF8C-6F717C3166F7}|FunctionCRUDG2\\FunctionCRUDG2.csproj|solutionrelative:functioncrudg2\\functioncrudg2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B8F2A82-4C3B-55D2-D1CD-22892E1C0F05}|RestaurantFunctionG2\\RestaurantFunctionG2.csproj|c:\\users\\glynn\\source\\repos\\cldv6212-class-repo\\functioncrudg2\\restaurantfunctiong2\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B8F2A82-4C3B-55D2-D1CD-22892E1C0F05}|RestaurantFunctionG2\\RestaurantFunctionG2.csproj|solutionrelative:restaurantfunctiong2\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +38,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Models\\MenuItem.cs",
-              "RelativeDocumentMoniker": "FunctionCRUDG2\\Models\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Models\\MenuItem.cs",
-              "RelativeToolTip": "FunctionCRUDG2\\Models\\MenuItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "functionService.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Services\\functionService.cs",
+              "RelativeDocumentMoniker": "FunctionCRUDG2\\Services\\functionService.cs",
+              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Services\\functionService.cs",
+              "RelativeToolTip": "FunctionCRUDG2\\Services\\functionService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T11:29:07.804Z"
+              "WhenOpened": "2026-07-27T11:15:45.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Program.cs",
+              "RelativeDocumentMoniker": "FunctionCRUDG2\\Program.cs",
+              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Program.cs",
+              "RelativeToolTip": "FunctionCRUDG2\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:06:31.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,16 +76,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "functionService.cs",
-              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Services\\functionService.cs",
-              "RelativeDocumentMoniker": "FunctionCRUDG2\\Services\\functionService.cs",
-              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Services\\functionService.cs",
-              "RelativeToolTip": "FunctionCRUDG2\\Services\\functionService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAgwFQAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "FunctionCRUDG2\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Models\\MenuItem.cs",
+              "RelativeToolTip": "FunctionCRUDG2\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T11:15:45.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-27T11:29:07.804Z"
             },
             {
               "$type": "Document",
@@ -88,31 +97,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-23T11:14:05.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Function1.cs",
-              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\RestaurantFunctionG2\\Function1.cs",
-              "RelativeDocumentMoniker": "RestaurantFunctionG2\\Function1.cs",
-              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\RestaurantFunctionG2\\Function1.cs",
-              "RelativeToolTip": "RestaurantFunctionG2\\Function1.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAUwIIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T11:10:55.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Program.cs",
-              "RelativeDocumentMoniker": "FunctionCRUDG2\\Program.cs",
-              "ToolTip": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\Program.cs",
-              "RelativeToolTip": "FunctionCRUDG2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T11:06:31.219Z",
-              "EditorCaption": ""
             }
           ]
         }

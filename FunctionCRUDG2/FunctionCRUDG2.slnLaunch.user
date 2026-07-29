@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FunctionCRUDG2\\FunctionCRUDG2.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RestaurantFunctionG2\\RestaurantFunctionG2.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

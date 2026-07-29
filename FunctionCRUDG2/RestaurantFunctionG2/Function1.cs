@@ -9,7 +9,7 @@ namespace RestaurantFunctionG2;
 
 public class Function1
 {
-	List<MenuItem> menuItems = new(); // we are using a list because databases = effort
+	d List<MenuItem> menuItems = new(); // we are using a list because databases = effort
 
 	private readonly ILogger<Function1> _logger;
 
@@ -36,7 +36,7 @@ public class Function1
 			case "GET":
 				// does the user want to get a SPECIFIC item? or a list of all of them
 				var requestedId = System.Web.HttpUtility.ParseQueryString(req.Url.Query)["id"];
-				var isRequesting = string.IsNullOrEmpty(requestedId);
+				var isRequesting = !string.IsNullOrEmpty(requestedId);
 
 				if (isRequesting)
 				{

@@ -11,7 +11,7 @@ namespace FunctionCRUDG2.Services
 	{
 		private readonly HttpClient _httpClient;
 		// function URL, be sure to update to match yours! :)
-		private const string functionURL = "http://localhost:7017/api/items";
+		private const string functionURL = "http://localhost:7107/api/items";
 		// create a single copy of the API service class that we will call everywhere else
 		// this is called a singleton - it is a type of software pattern
 		private static readonly Lazy<functionService> _instance = new(() => new functionService());
