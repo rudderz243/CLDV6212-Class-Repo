@@ -13,3 +13,18 @@ C:\Users\Glynn\source\repos\CLDV6212-Class-Repo\FunctionCRUDG2\FunctionCRUDG2\ob
 C:\Users\Glynn\source\repos\CLDV6212-Class-Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.pdb
 C:\Users\Glynn\source\repos\CLDV6212-Class-Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.genruntimeconfig.cache
 C:\Users\Glynn\source\repos\CLDV6212-Class-Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\ref\FunctionCRUDG2.dll
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\bin\Debug\net10.0\FunctionCRUDG2.exe
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\bin\Debug\net10.0\FunctionCRUDG2.deps.json
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\bin\Debug\net10.0\FunctionCRUDG2.runtimeconfig.json
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\bin\Debug\net10.0\FunctionCRUDG2.dll
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\bin\Debug\net10.0\FunctionCRUDG2.pdb
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.AssemblyInfoInputs.cache
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.AssemblyInfo.cs
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.csproj.CoreCompileInputs.cache
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.sourcelink.json
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.dll
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\refint\FunctionCRUDG2.dll
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.pdb
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\FunctionCRUDG2.genruntimeconfig.cache
+C:\Users\Glynn\Documents\2026\CLDV6212 (S2)\Classwork Repo\FunctionCRUDG2\FunctionCRUDG2\obj\Debug\net10.0\ref\FunctionCRUDG2.dll

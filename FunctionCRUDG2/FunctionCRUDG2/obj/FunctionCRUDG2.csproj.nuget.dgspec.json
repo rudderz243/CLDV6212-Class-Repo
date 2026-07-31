@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj": {}
+    "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj": {
+    "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj",
+        "projectUniqueName": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj",
         "projectName": "FunctionCRUDG2",
-        "projectPath": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj",
+        "projectPath": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\FunctionCRUDG2\\FunctionCRUDG2\\FunctionCRUDG2.csproj",
         "packagesPath": "C:\\Users\\Glynn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Glynn\\source\\repos\\CLDV6212-Class-Repo\\FunctionCRUDG2\\FunctionCRUDG2\\obj\\",
+        "outputPath": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\FunctionCRUDG2\\FunctionCRUDG2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
