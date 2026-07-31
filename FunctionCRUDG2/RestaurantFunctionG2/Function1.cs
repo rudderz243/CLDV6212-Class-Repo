@@ -9,7 +9,7 @@ namespace RestaurantFunctionG2;
 
 public class Function1
 {
-	 List<MenuItem> menuItems = new(); // we are using a list because databases = effort
+	static List<MenuItem> menuItems = new(); // we are using a list because databases = effort
 
 	private readonly ILogger<Function1> _logger;
 
