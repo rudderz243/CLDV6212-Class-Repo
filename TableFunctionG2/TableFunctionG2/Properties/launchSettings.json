@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "TableFunctionG2": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7109"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 30609,
+      "useSSL": false
+    }
+  }
+}
