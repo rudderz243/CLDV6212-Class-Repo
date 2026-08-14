@@ -1,3 +1,4 @@
+using Azure;
 using Azure.Data.Tables;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Http;
@@ -76,10 +77,75 @@ public class BookTableFunction
 	[Function("GetBookById")]
 	public async Task<HttpResponseData> GetBookById ([HttpTrigger(AuthorizationLevel.Anonymous, "get",
 	Route = "books/{genre}/{id}")] HttpRequestData req, string genre, string id) {
-	
+		try {
+			// to get a specific item from tableStorage, you must specify the partitionkey (genre), rowkey (primary key/id)
+			var requestedEntity = await _tableClient.GetEntityAsync<BookEntity>(genre, id);
+			// once we get the item, we return a response to the user
+			var goodResponse = req.CreateResponse(System.Net.HttpStatusCode.OK);
+			await goodResponse.WriteAsJsonAsync(requestedEntity);
+			return goodResponse;
+		} catch (RequestFailedException ex) when (ex.Status == 404) {
+			var notFoundResponse = req.CreateResponse(System.Net.HttpStatusCode.NotFound);
+			await notFoundResponse.WriteStringAsync("error: item not found");
+			return notFoundResponse;
+		} catch (Exception e) {
+			var genericErrorResponse = req.CreateResponse(System.Net.HttpStatusCode.InternalServerError);
+			await genericErrorResponse.WriteStringAsync("error: server exploded");
+			return genericErrorResponse;
+		}
 	}
 
+	[Function("UpdateBook")]
+	public async Task<HttpResponseData> UpdateBook([HttpTrigger(AuthorizationLevel.Anonymous, "put",
+	Route ="books/{genre}/{id}")] HttpRequestData req, string genre, string id) {
+		// get the updated book information from the req.body
+		var updatedBook = await JsonSerializer.DeserializeAsync<BookEntity>(req.Body);
 
+		if (updatedBook == null) {
+			var blankResponse = req.CreateResponse(System.Net.HttpStatusCode.BadRequest);
+			await blankResponse.WriteStringAsync("error: please provide all book information");
+			return blankResponse;
+		}
 
+		// set the partition and row key based on the provided attributes
+		updatedBook.PartitionKey = genre;
+		updatedBook.RowKey = id;
 
+		try {
+			await _tableClient.UpdateEntityAsync(updatedBook, ETag.All, TableUpdateMode.Replace);
+			var goodResponse = req.CreateResponse(System.Net.HttpStatusCode.OK);
+			await goodResponse.WriteStringAsync("message: book updated successfully");
+			return goodResponse;
+		} catch (RequestFailedException ex) when(ex.Status == 404) {
+			var notFoundResponse = req.CreateResponse(System.Net.HttpStatusCode.NotFound);
+			await notFoundResponse.WriteStringAsync("error: item not found");
+			return notFoundResponse;
+		} catch (Exception e) {
+			var genericErrorResponse = req.CreateResponse(System.Net.HttpStatusCode.InternalServerError);
+			await genericErrorResponse.WriteStringAsync("error: server exploded");
+			return genericErrorResponse;
+		}
+	}
+	[Function("DeleteBook")]
+	public async Task<HttpResponseData> DeleteBook([HttpTrigger(AuthorizationLevel.Anonymous, "delete",
+	Route = "books/{genre}/{id}")] HttpRequestData req, string genre, string id) {
+		try {
+			await _tableClient.DeleteEntityAsync(genre, id);
+			var goodResponse = req.CreateResponse(System.Net.HttpStatusCode.OK);
+			await goodResponse.WriteStringAsync("message: delete successfully");
+			return goodResponse;
+		}
+		catch (RequestFailedException ex) when (ex.Status == 404)
+		{
+			var notFoundResponse = req.CreateResponse(System.Net.HttpStatusCode.NotFound);
+			await notFoundResponse.WriteStringAsync("error: item not found");
+			return notFoundResponse;
+		}
+		catch (Exception e)
+		{
+			var genericErrorResponse = req.CreateResponse(System.Net.HttpStatusCode.InternalServerError);
+			await genericErrorResponse.WriteStringAsync("error: server exploded");
+			return genericErrorResponse;
+		}
+	}
 }
