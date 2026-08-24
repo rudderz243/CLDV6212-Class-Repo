@@ -7,8 +7,7 @@
     "Container (Dockerfile)": {
       "commandName": "Docker",
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "containerRunArguments": "--init",
-      "httpPort": 30609,
+      "containerRunArguments": "--init --network host",
       "useSSL": false
     }
   }
