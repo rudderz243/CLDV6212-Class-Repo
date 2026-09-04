@@ -13,7 +13,7 @@ var builder = FunctionsApplication.CreateBuilder(args);
 builder.ConfigureFunctionsWebApplication();
 
 // here you would call the connection string from your local.settings.json, but not today
-const string connectionString = "UseDevelopmentStorage=true";
+const string connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://host.docker.internal:10000/devstoreaccount1;QueueEndpoint=http://host.docker.internal:10001/devstoreaccount1;TableEndpoint=http://host.docker.internal:10002/devstoreaccount1;";
 
 // we call in a new singleton for our Azurite services - remember - a singleton is a single instance of a service
 builder.Services.AddSingleton(new TableServiceClient(connectionString));
