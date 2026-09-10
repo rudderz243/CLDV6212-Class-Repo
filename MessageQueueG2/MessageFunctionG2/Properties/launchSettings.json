@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "MessageFunctionG2": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7219",
+      "launchBrowser": false
+    }
+  }
+}

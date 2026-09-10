@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MessageFunctionG2/MessageFunctionG2.csproj" />
+  <Project Path="MessageQueueG2/MessageQueueG2.csproj" />
+</Solution>
