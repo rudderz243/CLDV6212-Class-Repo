@@ -1,6 +1,7 @@
 using Azure.Data.Tables;
 using Azure.Monitor.OpenTelemetry.Exporter;
 using Azure.Storage.Blobs;
+using Azure.Storage.Queues;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Azure.Functions.Worker.OpenTelemetry;
@@ -18,6 +19,10 @@ const string connectionString = "DefaultEndpointsProtocol=http;AccountName=devst
 // we call in a new singleton for our Azurite services - remember - a singleton is a single instance of a service
 builder.Services.AddSingleton(new TableServiceClient(connectionString));
 builder.Services.AddSingleton(new BlobServiceClient(connectionString));
+builder.Services.AddSingleton(new QueueServiceClient(connectionString, new QueueClientOptions
+{
+	MessageEncoding = QueueMessageEncoding.Base64
+}));
 
 if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("APPLICATIONINSIGHTS_CONNECTION_STRING")))
 {
