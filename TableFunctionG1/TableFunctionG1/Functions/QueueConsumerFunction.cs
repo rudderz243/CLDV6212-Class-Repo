@@ -1,4 +1,3 @@
-using System;
 using System.Text.Json;
 using Azure.Data.Tables;
 using Azure.Storage.Queues.Models;
@@ -7,10 +6,12 @@ using Microsoft.Extensions.Logging;
 using TableFunctionG1.Models;
 
 // queue trigger function -> queue name loan-queue
-namespace TableFunctionG1;
+// the purpose of this function is to recieve the loans that are added into the queue, decode them, use DTO mapping to turn them into a Table Entity, then add them to the Table
+namespace TableFunctionG1.Functions;
 
 public class QueueConsumerFunction
 {
+    // the table client gives us access to the Azurite tables (so we can store the loans)
     private readonly TableClient _tableClient;
     private readonly ILogger<QueueConsumerFunction> _logger;
 

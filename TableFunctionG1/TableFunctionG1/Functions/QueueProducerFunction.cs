@@ -1,6 +1,5 @@
 using Azure.Storage.Queues;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
@@ -8,17 +7,19 @@ using System.Text.Json;
 using TableFunctionG1.Models;
 
 // http trigger function -> authorization level anonymous
-namespace TableFunctionG1;
+// the purpose of this function is to get in the information about each loan that is being made, and convert it into a format that can be added into the queue
+namespace TableFunctionG1.Functions;
 
 public class QueueProducerFunction
 {
+    // the queue client gives us access to the Azurite queue (so we can send the loans into the queue)
     private readonly QueueClient _queueClient;
     private readonly ILogger<QueueProducerFunction> _logger;
 
     public QueueProducerFunction(ILogger<QueueProducerFunction> logger, QueueServiceClient singleton)
     {
         _logger = logger;
-        _queueClient = singleton.GetQueueClient("loan-queue");
+        _queueClient = singleton.GetQueueClient("loan-queue"); // name of queue
         _queueClient.CreateIfNotExists();
     }
 

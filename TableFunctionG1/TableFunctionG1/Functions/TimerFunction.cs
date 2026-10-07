@@ -1,4 +1,3 @@
-using System;
 using Azure;
 using Azure.Data.Tables;
 using Microsoft.Azure.Functions.Worker;
@@ -6,11 +5,13 @@ using Microsoft.Extensions.Logging;
 using TableFunctionG1.Models;
 
 // timer trigger function
-namespace TableFunctionG1;
+// the purpose of the timer function is to automatically update the status of each loan on a set interval
+namespace TableFunctionG1.Functions;
 
 public class TimerFunction
 {
-	private readonly TableClient _tableClient; // we need to access the table to adjust the loans
+	// the table client gives us access to the Azurite tables (so we can update the loans)
+	private readonly TableClient _tableClient;
 	private readonly ILogger _logger;
 
 	public TimerFunction(ILoggerFactory loggerFactory, TableServiceClient singleton)
@@ -21,7 +22,7 @@ public class TimerFunction
 	}
 
 	[Function("TimerFunction")]
-	public async Task Run([TimerTrigger("*/30 * * * * *")] TimerInfo myTimer)
+	public async Task Run([TimerTrigger("*/30 * * * * *")] TimerInfo myTimer) // the type of timing is called CRON timing, this is set to 30 seconds right now
 	{
 		_logger.LogInformation("C# Timer trigger function executed at: {executionTime}", DateTime.Now);
 
@@ -51,7 +52,7 @@ public class TimerFunction
 					await _tableClient.UpdateEntityAsync(loan, ETag.All, TableUpdateMode.Replace);
 					break;
 				case "Archived":
-					// do nothing, this is the final state
+					// do nothing, this is the final state a loan can be in
 					break;
 				default:
 					// if the loan status is not one of the above somehow, log it and move on

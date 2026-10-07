@@ -1,10 +1,8 @@
 ﻿using Azure;
 using Azure.Data.Tables;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 // the failed loan entity class is for a table entity that stores queue items that failed to get processed correctly
+// we use it to keep track of what message failed, why it failed, and when it failed (full handling of the poison queue)
 namespace TableFunctionG1.Models
 {
 	public class FailedLoanEntity : ITableEntity

@@ -1,12 +1,8 @@
 ﻿using Azure.Storage.Blobs;
-using Microsoft.AspNetCore.Components;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace TableFunctionG1
+namespace TableFunctionG1.Functions
 {
 	public class BlobFunctions
 	{

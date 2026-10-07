@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿// this class dictates what the structure of each message being added into the queue is going to look like
+// we map from this class (using DTO mapping), into our Loan Table Entity class
 namespace TableFunctionG1.Models
 {
 	public class LoanQueueMessage

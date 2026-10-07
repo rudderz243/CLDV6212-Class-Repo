@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 using TableFunctionG1.Models;
 
 // queue trigger function, points at (queue name)-poison
-namespace TableFunctionG1;
+namespace TableFunctionG1.Functions;
 
 public class PoisonQueueFunction
 {

@@ -1,16 +1,13 @@
 using Azure;
 using Azure.Data.Tables;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
-using Microsoft.Extensions.Logging;
 using System.Net;
 using System.Text.Json;
 using TableFunctionG1.Models;
 
-namespace TableFunctionG1;
+namespace TableFunctionG1.Functions;
 
 public class BookTableFunctions
 {
@@ -95,7 +92,7 @@ public class BookTableFunctions
 			await badResponse.WriteStringAsync($"error: item not found with id {id}");
 			return badResponse;
 		}
-		catch (Exception ex)
+		catch (Exception)
 		{
 			// return 500
 			var genericResponse = req.CreateResponse(HttpStatusCode.InternalServerError);
