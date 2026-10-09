@@ -30,7 +30,7 @@ public class QueueProducerFunction
         _logger.LogInformation("Adding a new item to the queue...");
 
         // first, we decode the JSON information from the request body, and turn it into an object
-        var newLoan = JsonSerializer.Deserialize<LoanQueueMessage>(req.Body);
+        var newLoan = await JsonSerializer.DeserializeAsync<LoanQueueMessage>(req.Body);
 
         // check if we were able to decode the json
         if (newLoan is null)

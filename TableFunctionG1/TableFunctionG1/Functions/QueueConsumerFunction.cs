@@ -42,11 +42,13 @@ public class QueueConsumerFunction
         {
             BookId = queueItem.BookId,
             BorrowerId = queueItem.BorrowerId,
-            LoanDate = queueItem.LoanDate,
-            Status = "Active"
+            // we have to change the DateTimeKind to UTC otherwise Azurite will throw an error
+            LoanDate = DateTime.SpecifyKind(queueItem.LoanDate, DateTimeKind.Utc),
+			Status = "Active"
         };
 
         // once the entity is created and prepared, we can add it into the table
+
         _tableClient.AddEntity(newEntity);
         _logger.LogInformation("new item added to the table successfully.");
     }
