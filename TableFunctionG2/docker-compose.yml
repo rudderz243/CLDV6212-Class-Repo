@@ -1,0 +1,51 @@
+services:
+  # declaring all of the information about our Azurite container
+  azurite:
+    # image -> what is the name/location of the container we want to run
+    image: gwyndolin7/azurite:v2.0
+    # container_name -> what we call the container
+    container_name: tablefunction-azurite
+    # restart -> when should docker automatically try and start the container?
+    restart: on-failure
+    # ports -> what ports should be opened to allow the outside world to communicate
+    ports:
+      - "10000:10000" # blob service
+      - "10001:10001" # queue service
+      - "10002:10002" # table service
+    # volumes -> when you need to store or keep data in a docker container, you use a colume
+    volumes:
+      # left = volume name, right = the folder inside the docker container
+      - azurite_data:/data
+    # networks -> a way to link many containers together so that they can talk to each other
+    networks:
+      - poe_network
+
+  # functions project
+  tablefunction:
+    image: gwyndolin7/tablefunctiong2:v2.0
+    container_name: tablefunction-functions
+    restart: on_failure
+    ports:
+      # left = container, right = local
+      - "34303:80"
+    # environment -> this is where we pass through any settings/configuration
+    environment:
+      # default azure functions environment variable
+      - FUNCTIONS_WORKER_RUNTIME=dotnet-isolated
+      # AzureWebJobsStorage -> connection string the container will use
+      # we need to replace host.docker.internal with just the name of our azurite container
+      - AzureWebJobsStorage=DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;QueueEndpoint=http://azurite:10001/devstoreaccount1;TableEndpoint=http://azurite:10002/devstoreaccount1;
+    networks:
+      - poe_network
+
+# volumes -> this is where we configure the volume we mentioned earlier
+volumes:
+  azurite_data:
+    # driver -> type of volume. default is local
+    driver: local
+
+# networks -> this block is where we configure and setup the networks we mentioned earlier
+networks:
+  poe_network:
+    # driver -> this is the type of network we want to use, default is bridge
+    driver: bridge

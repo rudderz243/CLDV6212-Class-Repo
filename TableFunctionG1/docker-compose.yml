@@ -1,0 +1,48 @@
+services:
+  azurite:
+    # image -> what is the name of the docker hub image that the compose needs to run
+    image: gwyndolin7/azurite:v2.0
+    # container_name -> this is just a name we give to identify the docker container
+    container_name: azurite
+    # restart -> here we describe when docker should try and reboot the container
+    restart: on-failure
+    # ports -> what ports should we open so that the outside can communicate with our container
+    ports:
+      - "10000:10000" # blob service
+      - "10001:10001" # queue service
+      - "10002:10002" # table service
+    # volumes -> when you need to save something and make sure the docker container keeps it,
+    # we make use of a volume for storage
+    volumes:
+      - azurite_data:/data # left side, name of volume | right side, folder inside container
+    # networks -> we use a network when we want multiple containers to be able to talk
+    networks:
+      - poe_network
+
+  tablefunctions:
+    image: gwyndolin7/tablefunctiong1:v2.0
+    container_name: tablefunctions
+    restart: on-failure
+    ports:
+      - "7107:80" # port 80 is the default port for web apps (default HTTP port)
+    # environment -> this is where we pass through any settings, or connection strings
+    environment:
+      # FUNCTIONS_WORKER_RUNTIME -> this tells the functions app what type it is
+      - FUNCTIONS_WORKER_RUNTIME=dotnet-isolated
+      # AzureWebJobsStorage -> connection string that the app will use
+      # IMPORTANT: we now replace host.docker.internal with the name of the azurite container
+      - AzureWebJobsStorage=DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;QueueEndpoint=http://azurite:10001/devstoreaccount1;TableEndpoint=http://azurite:10002/devstoreaccount1;
+    networks:
+      - poe_network # make sure its the same name as the azurite one
+
+# volumes block -> this is where we configure our storage we mentioned earlier
+volumes:
+  azurite_data:
+    # driver -> type of volume (local is default)
+    driver: local
+
+# networks -> this is where we configure what the network actually is
+networks:
+  poe_network:
+    # driver -> type of network (bridge is default)
+    driver: bridge

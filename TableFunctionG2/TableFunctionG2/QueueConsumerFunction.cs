@@ -39,7 +39,7 @@ public class QueueConsumerFunction
         {
             BookId = loanData.BookId,
             BorrowerId = loanData.BorrowerId,
-            LoanDate = loanData.LoanDate,
+            LoanDate = DateTime.SpecifyKind(loanData.LoanDate, DateTimeKind.Utc),
             Status = "Active"
         };
 
