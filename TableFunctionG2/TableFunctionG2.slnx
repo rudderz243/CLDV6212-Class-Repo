@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="LibraryGatewayAPI/LibraryGatewayAPI.csproj" Id="e182e6e3-827f-43c9-ae3e-0c52f697ca1e" />
   <Project Path="TableFunctionG2/TableFunctionG2.csproj" />
 </Solution>
