@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\clients\\loanqueueclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\clients\\loanqueueclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\tablefunctiong2\\queueproducerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|solutionrelative:tablefunctiong2\\queueproducerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\clients\\documentblobclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\clients\\documentblobclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\clients\\bookstableclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\clients\\bookstableclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\tablefunctiong2\\blobfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|solutionrelative:tablefunctiong2\\blobfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\dtos\\bookdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\dtos\\bookdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\dtos\\blobdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\dtos\\blobdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\dtos\\bookdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\dtos\\bookdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\tablefunctiong2\\models\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|solutionrelative:tablefunctiong2\\queueconsumerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\tablefunctiong2\\queueproducerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|solutionrelative:tablefunctiong2\\queueproducerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\tablefunctiong2\\tablefunctiong2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|solutionrelative:tablefunctiong2\\tablefunctiong2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -85,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\tablefunctiong2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|solutionrelative:tablefunctiong2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\tablefunctiong2\\blobfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{449B736B-ABA8-E957-FDAA-61AADBC562CC}|TableFunctionG2\\TableFunctionG2.csproj|solutionrelative:tablefunctiong2\\blobfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -103,19 +119,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ErrorResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
-              "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
-              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
-              "RelativeToolTip": "LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "LoanQueueClient.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\LoanQueueClient.cs",
+              "RelativeDocumentMoniker": "LibraryGatewayAPI\\Clients\\LoanQueueClient.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\LoanQueueClient.cs",
+              "RelativeToolTip": "LibraryGatewayAPI\\Clients\\LoanQueueClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T12:24:25.661Z",
+              "WhenOpened": "2026-10-19T11:40:26.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DocumentBlobClient.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\DocumentBlobClient.cs",
+              "RelativeDocumentMoniker": "LibraryGatewayAPI\\Clients\\DocumentBlobClient.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\DocumentBlobClient.cs",
+              "RelativeToolTip": "LibraryGatewayAPI\\Clients\\DocumentBlobClient.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wDIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:13:22.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksTableClient.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\BooksTableClient.cs",
+              "RelativeDocumentMoniker": "LibraryGatewayAPI\\Clients\\BooksTableClient.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\BooksTableClient.cs",
+              "RelativeToolTip": "LibraryGatewayAPI\\Clients\\BooksTableClient.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA0wDkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T12:08:50.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BlobDtos.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\BlobDtos.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\BlobDtos.cs",
@@ -123,12 +165,11 @@
               "RelativeToolTip": "LibraryGatewayAPI\\DTOs\\BlobDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T12:18:43.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T12:18:43.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "LoanDtos.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\LoanDtos.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\LoanDtos.cs",
@@ -136,42 +177,85 @@
               "RelativeToolTip": "LibraryGatewayAPI\\DTOs\\LoanDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T12:07:18.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T12:07:18.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BookDtos.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\BookDtos.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\BookDtos.cs",
               "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\BookDtos.cs",
               "RelativeToolTip": "LibraryGatewayAPI\\DTOs\\BookDtos.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T11:35:44.668Z",
+              "WhenOpened": "2026-10-13T11:35:44.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QueueProducerFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\QueueProducerFunction.cs",
+              "RelativeDocumentMoniker": "TableFunctionG2\\QueueProducerFunction.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\QueueProducerFunction.cs",
+              "RelativeToolTip": "TableFunctionG2\\QueueProducerFunction.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T11:56:14.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LibraryGatewayAPI",
+              "DocumentIndex": 7,
+              "Title": "ErrorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
+              "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
+              "RelativeToolTip": "LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T12:24:25.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlobFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\BlobFunctions.cs",
+              "RelativeDocumentMoniker": "TableFunctionG2\\BlobFunctions.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\BlobFunctions.cs",
+              "RelativeToolTip": "TableFunctionG2\\BlobFunctions.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwFMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:14:04.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "LibraryGatewayAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "LibraryGatewayAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAywEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T11:17:59.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LibraryGatewayAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\LibraryGatewayAPI.csproj",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\LibraryGatewayAPI.csproj",
               "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\LibraryGatewayAPI.csproj",
               "RelativeToolTip": "LibraryGatewayAPI\\LibraryGatewayAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-13T11:33:21.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2026-10-13T11:33:21.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\appsettings.json",
@@ -179,12 +263,11 @@
               "RelativeToolTip": "LibraryGatewayAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-13T11:28:03.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T11:28:03.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "BookEntity.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\BookEntity.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\BookEntity.cs",
@@ -192,12 +275,11 @@
               "RelativeToolTip": "TableFunctionG2\\Models\\BookEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T12:10:25.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-03T12:10:25.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "QueueConsumerFunction.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\QueueConsumerFunction.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\QueueConsumerFunction.cs",
@@ -209,19 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "QueueProducerFunction.cs",
-              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\QueueProducerFunction.cs",
-              "RelativeDocumentMoniker": "TableFunctionG2\\QueueProducerFunction.cs",
-              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\QueueProducerFunction.cs",
-              "RelativeToolTip": "TableFunctionG2\\QueueProducerFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T11:56:14.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "LoanQueueMessage.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\LoanQueueMessage.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\LoanQueueMessage.cs",
@@ -233,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "LoanEntity.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\LoanEntity.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\LoanEntity.cs",
@@ -245,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "TableFunctionG2.csproj",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\TableFunctionG2.csproj",
               "RelativeDocumentMoniker": "TableFunctionG2\\TableFunctionG2.csproj",
@@ -253,12 +323,11 @@
               "RelativeToolTip": "TableFunctionG2\\TableFunctionG2.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-06T11:11:24.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T11:11:24.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "local.settings.json",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\local.settings.json",
               "RelativeDocumentMoniker": "TableFunctionG2\\local.settings.json",
@@ -266,12 +335,11 @@
               "RelativeToolTip": "TableFunctionG2\\local.settings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-20T07:29:31.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-20T07:29:31.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "PoisonHandlingFunction.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\PoisonHandlingFunction.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\PoisonHandlingFunction.cs",
@@ -283,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "host.json",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\host.json",
               "RelativeDocumentMoniker": "TableFunctionG2\\host.json",
@@ -295,19 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BlobFunctions.cs",
-              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\BlobFunctions.cs",
-              "RelativeDocumentMoniker": "TableFunctionG2\\BlobFunctions.cs",
-              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\BlobFunctions.cs",
-              "RelativeToolTip": "TableFunctionG2\\BlobFunctions.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAgwFMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T11:14:04.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Dockerfile",
               "RelativeDocumentMoniker": "TableFunctionG2\\Dockerfile",
@@ -319,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Program.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Program.cs",
@@ -331,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "TimerFunction.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\TimerFunction.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\TimerFunction.cs",
@@ -343,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "FailedLoanEntity.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\FailedLoanEntity.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\FailedLoanEntity.cs",
@@ -355,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TableFunctionG2\\Properties\\launchSettings.json",
@@ -367,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Function1.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Function1.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Function1.cs",
@@ -376,6 +432,14 @@
               "ViewState": "AgIAABIAAAAAAAAAAAA6wB0AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-03T11:33:14.16Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
