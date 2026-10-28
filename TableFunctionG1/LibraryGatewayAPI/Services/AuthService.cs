@@ -64,7 +64,53 @@ namespace LibraryGatewayAPI.Services
 				new Claim(ClaimTypes.Name, user.FullName),
 				new Claim(ClaimTypes.Role, user.PartitionKey),
 			};
+			// now that we have claims, we can generate our JWT token, and prepare to return it
+			var token = new JwtSecurityToken(
+				issuer: jwtSettings["Issuer"],
+				audience: jwtSettings["Audience"],
+				claims: claims,
+				expires: expiration,
+				signingCredentials: creds
+			);
+			// return the token to the user
+			return new AuthResponseDto
+			{
+				Token = new JwtSecurityTokenHandler().WriteToken(token),
+				Email = user.RowKey,
+				FullName = user.FullName,
+				Role = user.PartitionKey,
+				ExpiresAtUtc = expiration
+			};
+		}
 
+		public async Task<AuthResponseDto?> AuthenticateUser(LoginDto dto)
+		{
+			// get the email of the user that is trying to log in
+			var loginEmail = dto.Email.ToLowerInvariant();
+			// check if that is a valid user in the table
+			var results = _table.QueryAsync<UserEntity>(u => u.RowKey == loginEmail);
+			// we cerate an object to store the results of the user search
+			UserEntity loginUser = null;
+			// loop through the results to find the possible match
+			await foreach (var user in results)
+			{
+				// if there is a mastching user, we set it and move to the next step
+				loginUser = user;
+				break;
+			}
+			// if there was no user, we just return nothing
+			if (loginUser == null)
+			{
+				return null;
+			}
+			// if there IS a matching user, we then need to validate their password
+			if (!BCrypt.Net.BCrypt.Verify(dto.Password, loginUser.PasswordHash))
+			{
+				return null;
+			}
+			// if the user exists, AND the password is correct (its hash matches the one in the table),
+			// we generate and return the authentication token the user needs to log in
+			return GenerateToken(loginUser);
 		}
 	}
 }

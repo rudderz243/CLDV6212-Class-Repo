@@ -1,6 +1,7 @@
 ﻿using Azure.Data.Tables;
 using LibraryGatewayAPI.DTOs;
 using LibraryGatewayAPI.Models;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -68,6 +69,57 @@ namespace LibraryGatewayAPI.Services
 				new Claim(ClaimTypes.Role, user.PartitionKey)
 			};
 
+			// generating the actual token we will return to the user
+			var token = new JwtSecurityToken(
+				issuer: settings["Issuer"],
+				audience: settings["Audience"],
+				claims: claims,
+				expires: expires,
+				signingCredentials: creds
+			);
+			// once generated, return
+			return new AuthResponseDto
+			{
+				Token = new JwtSecurityTokenHandler().WriteToken(token),
+				Email = user.RowKey,
+				FullName = user.FullName,
+				Role = user.PartitionKey,
+				ExpiresAtUtc = expires
+			};
+		}
+
+		private async Task<AuthResponseDto?> AuthenticateUser(LoginDto dto)
+		{
+			// get the email of the user logging in
+			string loginEmail = dto.Email.ToLowerInvariant();
+			// check if the user exists
+			var queryResults = _table.QueryAsync<UserEntity>(u => u.RowKey == loginEmail);
+			// set to blank until we find it in the loop through the query results
+			UserEntity loginUser = null;
+			await foreach (var user in queryResults)
+			{
+				// if we find a match for the email, we grab it so we can progress further
+				loginUser = user;
+				break;
+			}
+			// if no user, return nothing
+			if (loginUser == null)
+			{
+				return null;
+			}
+			// if password incorrect, return nothing
+			if (!BCrypt.Net.BCrypt.Verify(dto.Password, loginUser.PasswordHash)) 
+			{
+				return null;
+			}
+			// if the user exists, AND they have provided the correct password, generate a token and login
+			return GenerateJwtToken(loginUser);
+
+
+
+
+
+			asdasdasdasd
 		}
 	}
 }
