@@ -1,5 +1,6 @@
 ﻿using LibraryGatewayAPI.Clients;
 using LibraryGatewayAPI.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +18,8 @@ namespace LibraryGatewayAPI.Controllers
 			_q = q;
 		}
 
-		[HttpGet("submit")]
+		[HttpPost("submit")]
+		[Authorize(Roles = "Admin,Staff,Customer")]
 		[ProducesResponseType(typeof(LoanSubmissionRequestDto), StatusCodes.Status202Accepted)] // accepted -> in progress but OK
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status400BadRequest)] // queue info bad
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status502BadGateway)] // api kaboom

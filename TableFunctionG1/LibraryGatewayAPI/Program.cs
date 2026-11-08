@@ -25,7 +25,7 @@ namespace LibraryGatewayAPI
 			builder.Services.AddEndpointsApiExplorer();
 
 			// this section is fot the Azurite configuration - so that we can access users in the table
-			string connectionString = "UseDevelopmentStorage=True;";
+			string connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;QueueEndpoint=http://azurite:10001/devstoreaccount1;TableEndpoint=http://azurite:10002/devstoreaccount1;";
 			builder.Services.AddSingleton(new TableServiceClient(connectionString));
 			// make sure that our AuthService.cs is able to access the table client
 			builder.Services.AddScoped<AuthService>();
@@ -77,7 +77,7 @@ namespace LibraryGatewayAPI
 			});
 
 			// setup the connection using the HTTPClients back to the Functions from the API
-			string functionUrl = "http://localhost:7017/v1/api";
+			string functionUrl = "http://tablefunction:80";
 			Uri functionUri = new Uri(functionUrl);
 
 			builder.Services.AddHttpClient<BooksTableClient>(c => c.BaseAddress = functionUri);
