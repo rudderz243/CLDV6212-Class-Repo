@@ -88,7 +88,7 @@ namespace LibraryGatewayAPI.Services
 			};
 		}
 
-		private async Task<AuthResponseDto?> AuthenticateUser(LoginDto dto)
+		public async Task<AuthResponseDto?> AuthenticateUser(LoginDto dto)
 		{
 			// get the email of the user logging in
 			string loginEmail = dto.Email.ToLowerInvariant();
@@ -119,7 +119,7 @@ namespace LibraryGatewayAPI.Services
 
 
 
-			asdasdasdasd
+			
 		}
 	}
 }

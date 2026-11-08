@@ -1,5 +1,6 @@
 ﻿using LibraryGatewayAPI.Clients;
 using LibraryGatewayAPI.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,7 @@ namespace LibraryGatewayAPI.Controllers
 		}
 
 		[HttpPost]
+		[Authorize(Roles = "Admin,Staff")]
 		[ProducesResponseType(StatusCodes.Status201Created)]
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status400BadRequest)] // user provides bad data
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status502BadGateway)] // the gateway api has an error
@@ -58,6 +60,7 @@ namespace LibraryGatewayAPI.Controllers
 		}
 
 		[HttpPut("genre/{genre}/id/{id}")]
+		[Authorize(Roles = "Admin")]
 		[ProducesResponseType(StatusCodes.Status200OK)]
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status400BadRequest)] // user provides bad data
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status502BadGateway)] // the gateway api has an error
@@ -68,6 +71,7 @@ namespace LibraryGatewayAPI.Controllers
 		}
 
 		[HttpDelete("genre/{genre}/id/{id}")]
+		[Authorize(Roles = "Admin")]
 		[ProducesResponseType(StatusCodes.Status200OK)]
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status502BadGateway)] // the gateway api has an error
 		public async Task<IActionResult> Delete([FromRoute] string genre, [FromRoute] string id)

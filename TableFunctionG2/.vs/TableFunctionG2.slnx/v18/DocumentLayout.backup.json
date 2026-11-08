@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\clients\\documentblobclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\clients\\documentblobclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|solutionrelative:librarygatewayapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E182E6E3-827F-43C9-AE3E-0C52F697CA1E}|LibraryGatewayAPI\\LibraryGatewayAPI.csproj|c:\\users\\glynn\\documents\\2026\\cldv6212 (s2)\\classwork repo\\tablefunctiong2\\librarygatewayapi\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,33 +150,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryGatewayAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\appsettings.json",
+              "RelativeToolTip": "LibraryGatewayAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-28T12:24:33.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryGatewayAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Program.cs",
+              "RelativeToolTip": "LibraryGatewayAPI\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T11:42:26.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Services\\AuthService.cs",
               "RelativeToolTip": "LibraryGatewayAPI\\Services\\AuthService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAUwD8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-26T12:10:52.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "LibraryGatewayAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\appsettings.json",
-              "RelativeToolTip": "LibraryGatewayAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-13T11:28:03.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DocumentController.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Controllers\\DocumentController.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Controllers\\DocumentController.cs",
@@ -180,12 +197,11 @@
               "RelativeToolTip": "LibraryGatewayAPI\\Controllers\\DocumentController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAA7wDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T12:15:48.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T12:15:48.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BlobDtos.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\BlobDtos.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\BlobDtos.cs",
@@ -197,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LoanDtos.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\LoanDtos.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\LoanDtos.cs",
@@ -209,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BookDtos.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\BookDtos.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\BookDtos.cs",
@@ -221,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "QueueProducerFunction.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\QueueProducerFunction.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\QueueProducerFunction.cs",
@@ -233,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DocumentBlobClient.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\DocumentBlobClient.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Clients\\DocumentBlobClient.cs",
@@ -241,12 +257,11 @@
               "RelativeToolTip": "LibraryGatewayAPI\\Clients\\DocumentBlobClient.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAA1wDIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T11:13:22.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T11:13:22.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoanQueueClient.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\LoanQueueClient.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Clients\\LoanQueueClient.cs",
@@ -254,12 +269,11 @@
               "RelativeToolTip": "LibraryGatewayAPI\\Clients\\LoanQueueClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T11:40:26.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T11:40:26.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Models\\UserEntity.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Models\\UserEntity.cs",
@@ -267,12 +281,11 @@
               "RelativeToolTip": "LibraryGatewayAPI\\Models\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T11:24:34.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-26T11:24:34.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AuthDtos.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\AuthDtos.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\AuthDtos.cs",
@@ -280,12 +293,11 @@
               "RelativeToolTip": "LibraryGatewayAPI\\DTOs\\AuthDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T11:34:07.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-26T11:34:07.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BooksTableClient.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Clients\\BooksTableClient.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Clients\\BooksTableClient.cs",
@@ -297,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Controllers\\BookController.cs",
@@ -309,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "QueueController.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Controllers\\QueueController.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Controllers\\QueueController.cs",
@@ -321,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ErrorResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\DTOs\\ErrorResponseDto.cs",
@@ -333,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LibraryGatewayAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\LibraryGatewayAPI.csproj",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\LibraryGatewayAPI.csproj",
@@ -345,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BlobFunctions.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\BlobFunctions.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\BlobFunctions.cs",
@@ -357,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\LibraryGatewayAPI\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "LibraryGatewayAPI\\Middleware\\GlobalExceptionMiddleware.cs",
@@ -369,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BookEntity.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\BookEntity.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\BookEntity.cs",
@@ -381,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "QueueConsumerFunction.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\QueueConsumerFunction.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\QueueConsumerFunction.cs",
@@ -393,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "LoanQueueMessage.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\LoanQueueMessage.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\LoanQueueMessage.cs",
@@ -405,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LoanEntity.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\LoanEntity.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\LoanEntity.cs",
@@ -417,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "TableFunctionG2.csproj",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\TableFunctionG2.csproj",
               "RelativeDocumentMoniker": "TableFunctionG2\\TableFunctionG2.csproj",
@@ -429,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "local.settings.json",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\local.settings.json",
               "RelativeDocumentMoniker": "TableFunctionG2\\local.settings.json",
@@ -441,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PoisonHandlingFunction.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\PoisonHandlingFunction.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\PoisonHandlingFunction.cs",
@@ -453,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "host.json",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\host.json",
               "RelativeDocumentMoniker": "TableFunctionG2\\host.json",
@@ -465,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Dockerfile",
               "RelativeDocumentMoniker": "TableFunctionG2\\Dockerfile",
@@ -477,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Program.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Program.cs",
@@ -489,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TimerFunction.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\TimerFunction.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\TimerFunction.cs",
@@ -501,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "FailedLoanEntity.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Models\\FailedLoanEntity.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Models\\FailedLoanEntity.cs",
@@ -513,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TableFunctionG2\\Properties\\launchSettings.json",
@@ -525,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Function1.cs",
               "DocumentMoniker": "C:\\Users\\Glynn\\Documents\\2026\\CLDV6212 (S2)\\Classwork Repo\\TableFunctionG2\\TableFunctionG2\\Function1.cs",
               "RelativeDocumentMoniker": "TableFunctionG2\\Function1.cs",

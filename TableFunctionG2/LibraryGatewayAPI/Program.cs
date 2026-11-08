@@ -27,7 +27,7 @@ namespace LibraryGatewayAPI
 			builder.Services.AddEndpointsApiExplorer();
 
 			// this section is for the Azurite configuration - so that we can store stuff in the users table
-			string connectionString = "UseDevelopementStorage=True;";
+			string connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;QueueEndpoint=http://azurite:10001/devstoreaccount1;TableEndpoint=http://azurite:10002/devstoreaccount1;";
 			builder.Services.AddSingleton(new TableServiceClient(connectionString));
 			// prep the authservice to connect to the table client
 			builder.Services.AddScoped<AuthService>();

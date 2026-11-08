@@ -24,7 +24,7 @@ services:
   tablefunction:
     image: gwyndolin7/tablefunctiong2:v2.0
     container_name: tablefunction-functions
-    restart: on_failure
+    restart: on-failure
     ports:
       # left = container, right = local
       - "34303:80"
@@ -35,6 +35,29 @@ services:
       # AzureWebJobsStorage -> connection string the container will use
       # we need to replace host.docker.internal with just the name of our azurite container
       - AzureWebJobsStorage=DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;QueueEndpoint=http://azurite:10001/devstoreaccount1;TableEndpoint=http://azurite:10002/devstoreaccount1;
+    networks:
+      - poe_network
+
+  gateway:
+    build:
+      context: .
+      dockerfile: LibraryGatewayApi/Dockerfile
+    container_name: library-gateway
+    restart: on-failure
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - DownstreamServices__FunctionsBaseUrl=http://tablefunction:80
+      - ConnectionStrings__Azurite=DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;QueueEndpoint=http://azurite:10001/devstoreaccount1;TableEndpoint=http://azurite:10002/devstoreaccount1;
+      - JwtSettings__SecretKey=SuperSecretKeyForLocalDevSigningPurposesMustBeLongEnough123!
+      - JwtSettings__Issuer=LibraryGateway
+      - JwtSettings__Audience=LibraryGatewayUsers
+      - JwtSettings__ExpirationMinutes=60
+    depends_on:
+      - azurite
+      - tablefunction
     networks:
       - poe_network
 

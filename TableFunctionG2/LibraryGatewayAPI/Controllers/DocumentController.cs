@@ -1,5 +1,6 @@
 ﻿using LibraryGatewayAPI.Clients;
 using LibraryGatewayAPI.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,6 +28,7 @@ namespace LibraryGatewayAPI.Controllers
 		}
 
 		[HttpGet("{filename}")]
+		[Authorize(Roles = "Admin,Staff")]
 		[Produces("application/octet-stream")] // instead of returning text, we return a file binary
 		[ProducesResponseType(StatusCodes.Status200OK)] // file exists
 		[ProducesResponseType(StatusCodes.Status404NotFound)] // file doesn't exist
@@ -38,6 +40,7 @@ namespace LibraryGatewayAPI.Controllers
 		}
 
 		[HttpPost("{filename}")]
+		[Authorize(Roles = "Admin,Staff")]
 		[Consumes("multipart/form-data", "application/octet-stream")] // takes IN these values
 		[ProducesResponseType(StatusCodes.Status202Accepted)] // function accepted the upload request and it is in progress
 		[ProducesResponseType(typeof(ErrorResponseDto), StatusCodes.Status400BadRequest)] // file missing / not provided
